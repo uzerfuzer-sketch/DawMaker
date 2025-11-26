@@ -1,0 +1,100 @@
+// Agregar a VisualBuilder.cpp después de joystickStyleCombo.addItem
+
+    // BasicMeter
+    basicMeterStyleCombo.addItem(\"Gradient\", 1);
+    basicMeterStyleCombo.addItem(\"Segmented\", 2);
+    basicMeterStyleCombo.addItem(\"Neon\", 3);
+    basicMeterStyleCombo.addItem(\"Vintage\", 4);
+    basicMeterStyleCombo.addItem(\"Digital\", 5);
+    basicMeterStyleCombo.addItem(\"Plasma\", 6);
+    basicMeterStyleCombo.addItem(\"Rainbow\", 7);
+    basicMeterStyleCombo.addItem(\"Thermal\", 8);
+    basicMeterStyleCombo.addItem(\"Crystal\", 9);
+    basicMeterStyleCombo.addItem(\"Wave\", 10);
+    basicMeterStyleCombo.onChange = [this]() { applyToWidget(); };
+    basicMeterColorButton.onClick = [this]() { showBasicMeterColorSelector(); };
+    
+    // VUMeter
+    vuMeterStyleCombo.addItem(\"Analog\", 1);
+    vuMeterStyleCombo.addItem(\"Modern\", 2);
+    vuMeterStyleCombo.addItem(\"Retro\", 3);
+    vuMeterStyleCombo.addItem(\"Chrome\", 4);
+    vuMeterStyleCombo.addItem(\"Wood\", 5);
+    vuMeterStyleCombo.addItem(\"Steampunk\", 6);
+    vuMeterStyleCombo.addItem(\"Neon\", 7);
+    vuMeterStyleCombo.addItem(\"Digital\", 8);
+    vuMeterStyleCombo.addItem(\"Minimal\", 9);
+    vuMeterStyleCombo.addItem(\"Luxury\", 10);
+    vuMeterStyleCombo.onChange = [this]() { applyToWidget(); };
+    vuMeterColorButton.onClick = [this]() { showVUMeterColorSelector(); };
+    
+    // LedMeter
+    ledMeterStyleCombo.addItem(\"Classic\", 1);
+    ledMeterStyleCombo.addItem(\"Round\", 2);
+    ledMeterStyleCombo.addItem(\"Square\", 3);
+    ledMeterStyleCombo.addItem(\"Diamond\", 4);
+    ledMeterStyleCombo.addItem(\"Bar\", 5);
+    ledMeterStyleCombo.addItem(\"Dot\", 6);
+    ledMeterStyleCombo.addItem(\"Glow\", 7);
+    ledMeterStyleCombo.addItem(\"Neon\", 8);
+    ledMeterStyleCombo.addItem(\"Matrix\", 9);
+    ledMeterStyleCombo.addItem(\"Spectrum\", 10);
+    ledMeterStyleCombo.onChange = [this]() { applyToWidget(); };
+    ledMeterColorButton.onClick = [this]() { showLedMeterColorSelector(); };
+    
+    // AudioScope
+    audioScopeStyleCombo.addItem(\"Waveform\", 1);
+    audioScopeStyleCombo.addItem(\"Spectrum\", 2);
+    audioScopeStyleCombo.addItem(\"Vectorscope\", 3);
+    audioScopeStyleCombo.addItem(\"Lissajous\", 4);
+    audioScopeStyleCombo.addItem(\"Waterfall\", 5);
+    audioScopeStyleCombo.addItem(\"Spectrogram\", 6);
+    audioScopeStyleCombo.addItem(\"Phase\", 7);
+    audioScopeStyleCombo.addItem(\"Goniometer\", 8);
+    audioScopeStyleCombo.addItem(\"Oscilloscope\", 9);
+    audioScopeStyleCombo.addItem(\"FFT\", 10);
+    audioScopeStyleCombo.onChange = [this]() { applyToWidget(); };
+    audioScopeColorButton.onClick = [this]() { showAudioScopeColorSelector(); };
+    
+    // VerticalFader
+    verticalFaderStyleCombo.addItem(\"Modern\", 1);
+    verticalFaderStyleCombo.addItem(\"Classic\", 2);
+    verticalFaderStyleCombo.addItem(\"Minimal\", 3);
+    verticalFaderStyleCombo.addItem(\"Studio\", 4);
+    verticalFaderStyleCombo.addItem(\"Vintage\", 5);
+    verticalFaderStyleCombo.addItem(\"Neon\", 6);
+    verticalFaderStyleCombo.addItem(\"Glass\", 7);
+    verticalFaderStyleCombo.addItem(\"Metal\", 8);
+    verticalFaderStyleCombo.addItem(\"Wood\", 9);
+    verticalFaderStyleCombo.addItem(\"Digital\", 10);
+    verticalFaderStyleCombo.onChange = [this]() { applyToWidget(); };
+    verticalFaderColorButton.onClick = [this]() { showVerticalFaderColorSelector(); };
+    
+    // ImageButton
+    imageButtonStyleCombo.addItem(\"Flat\", 1);
+    imageButtonStyleCombo.addItem(\"Raised\", 2);
+    imageButtonStyleCombo.addItem(\"Rounded\", 3);
+    imageButtonStyleCombo.addItem(\"Circle\", 4);
+    imageButtonStyleCombo.addItem(\"Neon\", 5);
+    imageButtonStyleCombo.addItem(\"Glass\", 6);
+    imageButtonStyleCombo.addItem(\"Metal\", 7);
+    imageButtonStyleCombo.addItem(\"Glow\", 8);
+    imageButtonStyleCombo.addItem(\"Shadow\", 9);
+    imageButtonStyleCombo.addItem(\"Gradient\", 10);
+    imageButtonStyleCombo.onChange = [this]() { applyToWidget(); };
+    imageButtonColorButton.onClick = [this]() { showImageButtonColorSelector(); };
+    
+    // ToggleButton
+    toggleButtonStyleCombo.addItem(\"Checkbox\", 1);
+    toggleButtonStyleCombo.addItem(\"Switch\", 2);
+    toggleButtonStyleCombo.addItem(\"Radio\", 3);
+    toggleButtonStyleCombo.addItem(\"LED\", 4);
+    toggleButtonStyleCombo.addItem(\"Button\", 5);
+    toggleButtonStyleCombo.addItem(\"Slider\", 6);
+    toggleButtonStyleCombo.addItem(\"Rocker\", 7);
+    toggleButtonStyleCombo.addItem(\"Flip\", 8);
+    toggleButtonStyleCombo.addItem(\"Power\", 9);
+    toggleButtonStyleCombo.addItem(\"Custom\", 10);
+    toggleButtonStyleCombo.onChange = [this]() { applyToWidget(); };
+    toggleButtonColorButton.onClick = [this]() { showToggleButtonColorSelector(); };
+
