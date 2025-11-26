@@ -1,6 +1,6 @@
 # Custom DAW - Estación de Trabajo de Audio Digital
 
-Una aplicación DAW (Digital Audio Workstation) profesional construida desde cero con JUCE, con enfoque en personalización completa de la GUI y capacidades robustas de audio/MIDI.
+Custom DAW es una estación de trabajo de audio digital (DAW) profesional y modular, pensada para usuarios sin experiencia en programación. Permite crear programas de audio avanzados y personalizados de forma visual, intuitiva y sin escribir código, aprovechando la potencia de JUCE y C++.
 
 ## 🎯 Características Principales
 
